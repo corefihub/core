@@ -3,7 +3,7 @@
 Package.describe({
   summary: 'Meteor sign up and sign in templates core package.',
   version: '1.15.1',
-  name: 'drokss:useraccounts-core',
+  name: 'corefihub:useraccounts-core',
   git: 'https://github.com/meteor-useraccounts/core.git',
 });
 
@@ -21,7 +21,7 @@ Package.onUse(function(api) {
 
   api.use([
     'blaze-html-templates@1.2.0',
-    'jquery',
+    'jquery@3.0.0',
     'reactive-dict',
   ], 'client');
 
@@ -80,7 +80,7 @@ Package.onUse(function(api) {
 });
 
 Package.onTest(function(api) {
-  api.use('drokss:useraccounts-core@1.15.0');
+  api.use('corefihub:useraccounts-core@1.15.0');
 
   api.use([
     'accounts-password',
