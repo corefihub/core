@@ -1,4 +1,4 @@
-[![Meteor Icon](http://icon.meteor.com/package/sebl29:useraccounts-core)](https://atmospherejs.com/useraccounts/core)
+[![Meteor Icon](http://icon.meteor.com/package/drokss:useraccounts-core)](https://atmospherejs.com/useraccounts/core)
 [![Build Status](https://travis-ci.org/meteor-useraccounts/core.svg?branch=master)](https://travis-ci.org/meteor-useraccounts/core)
 
 # User Accounts
@@ -7,12 +7,12 @@ User Accounts is a suite of packages for the [Meteor.js](https://www.meteor.com/
 
 ## Some Details
 
-The package `sebl29:useraccounts-core` contains all the core logic and templates' helpers and events used by dependant packages providing styled versions of the accounts UI.
+The package `drokss:useraccounts-core` contains all the core logic and templates' helpers and events used by dependant packages providing styled versions of the accounts UI.
 This means that developing a version of the UI with a different styling is just a matter of writing a few dozen of html lines, nothing more!
 
 Thanks to [accounts-t9n](https://github.com/softwarerero/meteor-accounts-t9n) you can switch to your preferred language on the fly! Available languages are now: Arabic, Czech, French, German, Italian, Polish, Portuguese, Russian, Slovenian, Spanish, Swedish, Turkish and Vietnamese.
 
-For basic routing and content protection, `sebl29:useraccounts-core` integrates with either [flow-router](https://github.com/meteor-useraccounts/flow-routing) or [iron-router](https://atmospherejs.com/package/iron-router).
+For basic routing and content protection, `drokss:useraccounts-core` integrates with either [flow-router](https://github.com/meteor-useraccounts/flow-routing) or [iron-router](https://atmospherejs.com/package/iron-router).
 
 Any comments, suggestions, testing efforts, and PRs are very very welcome! Please use the [repository](https://github.com/meteor-useraccounts/ui) issues tracker for reporting bugs, problems, ideas, discussions, etc..
 
