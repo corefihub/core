@@ -2,7 +2,7 @@
 
 Package.describe({
   summary: 'Meteor sign up and sign in templates core package.',
-  version: '1.15.0',
+  version: '1.15.1',
   name: 'drokss:useraccounts-core',
   git: 'https://github.com/meteor-useraccounts/core.git',
 });
@@ -20,8 +20,8 @@ Package.onUse(function(api) {
   ], ['client', 'server']);
 
   api.use([
-    'blaze-html-templates@1.1.2',
-    'jquery@1.11.11',
+    'blaze-html-templates@1.2.0',
+    'jquery',
     'reactive-dict',
   ], 'client');
 
@@ -35,7 +35,7 @@ Package.onUse(function(api) {
   ], ['client', 'server']);
 
   api.imply([
-    'blaze-html-templates@1.1.2',
+    'blaze-html-templates@1.2.0',
   ], ['client']);
 
   api.addFiles([
