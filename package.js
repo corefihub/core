@@ -2,7 +2,7 @@
 
 Package.describe({
   summary: 'Meteor sign up and sign in templates core package.',
-  version: '1.15.1',
+  version: '1.15.2',
   name: 'corefihub:useraccounts-core',
   git: 'https://github.com/meteor-useraccounts/core.git',
 });
@@ -16,7 +16,7 @@ Package.onUse(function(api) {
     'ecmascript',
     'reactive-var',
     'underscore',
-    'tmeasday:check-npm-versions@0.3.2',
+    'tmeasday:check-npm-versions@1.0.1',
   ], ['client', 'server']);
 
   api.use([
