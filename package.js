@@ -26,7 +26,7 @@ Package.onUse(function(api) {
   ], 'client');
 
   api.use([
-    'http'
+    'http@1.4.3'
   ], 'server');
 
   api.imply([
