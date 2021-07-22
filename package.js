@@ -2,13 +2,13 @@
 
 Package.describe({
   summary: 'Meteor sign up and sign in templates core package.',
-  version: '1.15.2',
+  version: '1.15.3',
   name: 'corefihub:useraccounts-core',
   git: 'https://github.com/meteor-useraccounts/core.git',
 });
 
 Package.onUse(function(api) {
-  api.versionsFrom('1.11.1');
+  api.versionsFrom('2.3.2');
 
   api.use([
     'accounts-base',
@@ -80,7 +80,7 @@ Package.onUse(function(api) {
 });
 
 Package.onTest(function(api) {
-  api.use('corefihub:useraccounts-core@1.15.0');
+  api.use('corefihub:useraccounts-core');
 
   api.use([
     'accounts-password',

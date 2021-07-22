@@ -1,5 +1,9 @@
 ## Master
 
+## v1.15.3
+
+* updated to meteor 2.3.2 
+
 ## v1.15.0
 
 * [flow-routing] fixed dependency on kadira:flow-router: now using the last non-Meteor@1.3 one
